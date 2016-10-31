@@ -1,0 +1,60 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2016-10-31T21:51:29.402Z",
+    "end": "2016-10-31T21:51:29.770Z",
+    "duration": 368
+  },
+  "tests": [
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions fetching all the movies returns the add movies action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions fetching all the movies returns the add movies action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
