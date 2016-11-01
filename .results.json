@@ -1,78 +1,74 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 3,
-    "passes": 0,
+    "suites": 6,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
-    "failures": 3,
-    "start": "2016-11-01T14:25:24.304Z",
-    "end": "2016-11-01T14:25:24.507Z",
-    "duration": 204
+    "failures": 0,
+    "start": "2016-11-01T17:00:43.250Z",
+    "end": "2016-11-01T17:00:43.477Z",
+    "duration": 227
   },
   "tests": [
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:9:14)",
-        "message": "(0 , _actions.addMovie) is not a function"
-      }
+      "err": {}
     },
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.deleteMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:16:14)",
-        "message": "(0 , _actions.deleteMovie) is not a function"
-      }
+      "err": {}
     },
     {
-      "title": "returns the add movies action",
-      "fullTitle": "movie actions fetching all the movies returns the add movies action",
-      "duration": 1,
+      "title": "returns the update username action",
+      "fullTitle": "username actions updating a username returns the update username action",
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.fetchMovies) is not a function\n    at Context.<anonymous> (test/index-test.js:22:14)",
-        "message": "(0 , _actions.fetchMovies) is not a function"
-      }
+      "err": {}
+    },
+    {
+      "title": "resets a username to default",
+      "fullTitle": "username actions resetting a username resets a username to default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns the add movies action",
+      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
     {
       "title": "returns the add movies action",
       "fullTitle": "movie actions adding a movie returns the add movies action",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:9:14)",
-        "message": "(0 , _actions.addMovie) is not a function"
-      }
+      "err": {}
     },
     {
-      "title": "returns the add movies action",
-      "fullTitle": "movie actions adding a movie returns the add movies action",
-      "duration": 1,
+      "title": "returns the update username action",
+      "fullTitle": "username actions updating a username returns the update username action",
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.deleteMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:16:14)",
-        "message": "(0 , _actions.deleteMovie) is not a function"
-      }
+      "err": {}
     },
     {
-      "title": "returns the add movies action",
-      "fullTitle": "movie actions fetching all the movies returns the add movies action",
-      "duration": 1,
+      "title": "resets a username to default",
+      "fullTitle": "username actions resetting a username resets a username to default",
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: (0 , _actions.fetchMovies) is not a function\n    at Context.<anonymous> (test/index-test.js:22:14)",
-        "message": "(0 , _actions.fetchMovies) is not a function"
-      }
+      "err": {}
     }
-  ],
-  "passes": []
+  ]
 }

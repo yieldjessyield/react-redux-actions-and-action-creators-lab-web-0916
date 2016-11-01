@@ -1,28 +1,27 @@
-function addMovie(movie){
+export function addMovie(movie){
   return {
     type: 'ADD_MOVIE',
     movie: movie
   }
 }
 
-function deleteMovie(movie){
+export function deleteMovie(movie){
   return {
     type: 'DELETE_MOVIE',
     movie: movie
   }
 }
 
-function fetchMovies(){
-  // imagine that this is making an API call instead of just loading data from afile
-  const movies = require('../../movies');
+export function updateUsername(username){
   return {
-    type: 'ADD_MOVIE',
-    movies: movies
+    type: 'UPDATE_USERNAME',
+    username: username
   }
 }
 
-export default {
-  addMovie,
-  deleteMovie,
-  fetchMovies
+export function resetUsername() {
+  return {
+    type: 'RESET_USERNAME',
+    username: 'default'
+  }
 }
