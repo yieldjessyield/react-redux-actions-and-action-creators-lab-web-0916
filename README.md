@@ -1,8 +1,14 @@
 # Lights...Camera...Action!
 
-This lab will have the students practice making action creators. We'll have them create two or three action creators. One will fetch a list of movies, one will create a movie, and one to destroy a movie. 
+![Camera](https://media.giphy.com/media/10bL6SqRBRfMUU/giphy.gif)
 
-The specs should test that
+## Objectives
 
-1. The action creators return an object with the correct type.
-2. They should return an object with the correct payload. 
+1. Build out action creators that return the correct data.
+2. Create actions to read, create, and destroy data.
+
+## Instructions
+
+In this lab, you'll be creating three different action creators that return different actions. Write your code in `actions/index` for `addMovie`, `deleteMovie`, and `fetchMovies`.
+
+**NOTE** - we've provided you a list of movies in the `movies.js` file in the root of this directory - your `fetchMovies` action should load the data from this file. In future lessons, we'll look at how to load this data from an API.
