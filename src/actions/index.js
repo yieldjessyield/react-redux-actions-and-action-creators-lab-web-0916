@@ -21,7 +21,7 @@ function fetchMovies(){
   }
 }
 
-module.exports = {
+export default {
   addMovie,
   deleteMovie,
   fetchMovies

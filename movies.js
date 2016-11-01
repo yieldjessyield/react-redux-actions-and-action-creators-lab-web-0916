@@ -1,4 +1,4 @@
-module.exports = [
+const movies = [
   {id: 1, title: "Jack Reacher: Never Go Back", releaseDate: "2016-10-19", popularity: 33.793474},
   {id: 2, title: "Star Trek Beyond", releaseDate: "2016-07-07", popularity: 32.881753},
   {id: 3, title: "Finding Dory", releaseDate: "2016-06-16", popularity: 29.473863},
@@ -19,4 +19,6 @@ module.exports = [
   {id: 18, title: "The Accountant", releaseDate: "2016-10-14", popularity: 11.79273},
   {id: 19, title: "Batman v Superman: Dawn of Justice", releaseDate: "2016-03-23", popularity: 11.791908},
   {id: 20, title: "Central Intelligence", releaseDate: "2016-06-15", popularity: 11.784035}
-] 
+]
+
+export default movies;

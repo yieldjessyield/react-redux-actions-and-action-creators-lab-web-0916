@@ -1,6 +1,6 @@
-const expect = require('expect');
-const { addMovie, deleteMovie, fetchMovies } = require('../src/actions');
-const movies = require('../movies');
+import expect from 'expect';
+import { addMovie, deleteMovie, fetchMovies } from '../src/actions';
+import movies from '../movies';
 
 describe('movie actions', function() {
   describe('adding a movie', function(){
