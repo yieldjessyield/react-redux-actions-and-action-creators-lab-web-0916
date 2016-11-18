@@ -1,8 +1,33 @@
 # Lights...Camera...Action!
 
-This lab will have the students practice making action creators. We'll have them create two or three action creators. One will fetch a list of movies, one will create a movie, and one to destroy a movie. 
+![Camera](https://media.giphy.com/media/10bL6SqRBRfMUU/giphy.gif)
 
-The specs should test that
+## Objectives
 
-1. The action creators return an object with the correct type.
-2. They should return an object with the correct payload. 
+1. Build out action creators that return the correct data.
+2. Create actions to read, create, and destroy data.
+
+## Instructions
+
+Imagine we're building a movie app for users to keep track of their favorite movies. We'll be building out action creator functions so that the user can take the following actions.
+
+1. Add a new movie
+2. Delete an existing movie
+3. Update their username
+4. Reset their username to the default username of 'default'
+
+## But Where Do I Write My Code?
+
+By convention in Redux, we write our action creator functions in a folder called `actions`. For a small project, we can define all of the actions in a single file file called `index` and export them as named exports.
+
+For example:
+
+```javascript
+// src/actions/index.js
+
+export function incrementCount(){
+  return {
+    type: 'INCREMENT_COUNT'
+  }
+}
+```

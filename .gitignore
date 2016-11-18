@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.results.json
 
 log
 node_modules
